@@ -1,0 +1,889 @@
+
+R version 4.1.1 (2021-08-10) -- "Kick Things"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(ggplot2)
+> ggplot2
+Error: object 'ggplot2' not found
+> library(ggtheme)
+Error in library(ggtheme) : there is no package called ‘ggtheme’
+> install.packages("ggthemes")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/ggthemes_4.2.4.zip'
+Content type 'application/zip' length 450838 bytes (440 KB)
+downloaded 440 KB
+
+package ‘ggthemes’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\RtmpUFjuho\downloaded_packages
+> library(ggthemes)
+Warning message:
+package ‘ggthemes’ was built under R version 4.1.2 
+> install.packages("lubridate")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘generics’
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/generics_0.1.1.zip'
+Content type 'application/zip' length 76995 bytes (75 KB)
+downloaded 75 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/lubridate_1.8.0.zip'
+Content type 'application/zip' length 1719496 bytes (1.6 MB)
+downloaded 1.6 MB
+
+package ‘generics’ successfully unpacked and MD5 sums checked
+package ‘lubridate’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\RtmpUFjuho\downloaded_packages
+> install.packages("Rtools")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  package ‘Rtools’ is not available for this version of R
+
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages
+> library(lubridate)
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.1.2 
+> library(dplyr)
+Error in library(dplyr) : there is no package called ‘dplyr’
+> install.packages("dplyr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/dplyr_1.0.7.zip'
+Content type 'application/zip' length 1344372 bytes (1.3 MB)
+downloaded 1.3 MB
+
+package ‘dplyr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\RtmpUFjuho\downloaded_packages
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:ggplot2’:
+
+    vars
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.1.2 
+> install.packages("tidyr")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/tidyr_1.1.4.zip'
+Content type 'application/zip' length 1075605 bytes (1.0 MB)
+downloaded 1.0 MB
+
+package ‘tidyr’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\RtmpUFjuho\downloaded_packages
+> library(tidyr)
+Warning message:
+package ‘tidyr’ was built under R version 4.1.2 
+> install.packages("DT")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘lazyeval’, ‘later’, ‘htmlwidgets’, ‘crosstalk’, ‘promises’
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/lazyeval_0.2.2.zip'
+Content type 'application/zip' length 173400 bytes (169 KB)
+downloaded 169 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/later_1.3.0.zip'
+Content type 'application/zip' length 860166 bytes (840 KB)
+downloaded 840 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/htmlwidgets_1.5.4.zip'
+Content type 'application/zip' length 905252 bytes (884 KB)
+downloaded 884 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/crosstalk_1.2.0.zip'
+Content type 'application/zip' length 409494 bytes (399 KB)
+downloaded 399 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/promises_1.2.0.1.zip'
+Content type 'application/zip' length 2320182 bytes (2.2 MB)
+downloaded 2.2 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/DT_0.20.zip'
+Content type 'application/zip' length 1830664 bytes (1.7 MB)
+downloaded 1.7 MB
+
+package ‘lazyeval’ successfully unpacked and MD5 sums checked
+package ‘later’ successfully unpacked and MD5 sums checked
+package ‘htmlwidgets’ successfully unpacked and MD5 sums checked
+package ‘crosstalk’ successfully unpacked and MD5 sums checked
+package ‘promises’ successfully unpacked and MD5 sums checked
+package ‘DT’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\RtmpUFjuho\downloaded_packages
+> library(DT)
+Warning message:
+package ‘DT’ was built under R version 4.1.2 
+> install.packages("scales")
+Error in install.packages : Updating loaded packages
+
+Restarting R session...
+
+> install.packages("scales")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/scales_1.1.1.zip'
+Content type 'application/zip' length 558895 bytes (545 KB)
+downloaded 545 KB
+
+package ‘scales’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\Rtmpo5fsNs\downloaded_packages
+> library(scales)
+Warning message:
+package ‘scales’ was built under R version 4.1.2 
+> colors = c(""#CC1011", "#665555", "#05a399", "#cfcaca", "#f5e840", "#0683c9", "#e075b0"")
++ 
+> colors -> c(""#CC1011", "#665555", "#05a399", "#cfcaca", "#f5e840", "#0683c9", "#e075b0"")
++ 
+> colors => c(""#CC1011", "#665555", "#05a399", "#cfcaca", "#f5e840", "#0683c9", "#e075b0"")
++ 
+> apr_data <- read.csv("uber-raw-data-apr14.csv")
+Error in file(file, "rt") : cannot open the connection
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'uber-raw-data-apr14.csv': No such file or directory
+> library(readxl)
+Warning message:
+package ‘readxl’ was built under R version 4.1.2 
+> uber_raw_data_apr14 <- read_excel("Uber-dataset/uber-raw-data-apr14.csv")
+Error: Can't establish that the input is either xls or xlsx.
+> View(uber_raw_data_apr14)
+Error in View : object 'uber_raw_data_apr14' not found
+> setwd('E:\Data Science\f178156_uber_trips_analysis_using_R\Uber-dataset')
+Error: '\D' is an unrecognized escape in character string starting "'E:\D"
+> setwd('\Uber-dataset')
+Error in setwd("¾r-dataset") : cannot change working directory
+> setwd('f178156_uber_trips_analysis_using_R\Uber-dataset')
+Error in setwd("f178156_uber_trips_analysis_using_R¾r-dataset") : 
+  cannot change working directory
+> setwd('.\Uber-dataset')
+Error in setwd(".¾r-dataset") : cannot change working directory
+> setwd('f178156_uber_trips_analysis_using_R')
+Error in setwd("f178156_uber_trips_analysis_using_R") : 
+  cannot change working directory
+> library(readr)
+
+Attaching package: ‘readr’
+
+The following object is masked from ‘package:scales’:
+
+    col_factor
+
+> uber_raw_data_apr14 <- read_csv("Uber-dataset/uber-raw-data-apr14.csv")
+Rows: 564516 Columns: 4                                                                                                
+-- Column specification ------------------------------------------------------------
+Delimiter: ","
+chr (2): Date/Time, Base
+dbl (2): Lat, Lon
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> View(uber_raw_data_apr14)
+> library(readr)
+> uber_raw_data_aug14 <- read_csv("Uber-dataset/uber-raw-data-aug14.csv")
+Rows: 829275 Columns: 4                                                                                                
+-- Column specification ------------------------------------------------------------
+Delimiter: ","
+chr (2): Date/Time, Base
+dbl (2): Lat, Lon
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> View(uber_raw_data_aug14)
+> library(readr)
+> uber_raw_data_jul14 <- read_csv("Uber-dataset/uber-raw-data-jul14.csv")
+Rows: 796121 Columns: 4                                                                                                
+-- Column specification ------------------------------------------------------------
+Delimiter: ","
+chr (2): Date/Time, Base
+dbl (2): Lat, Lon
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> View(uber_raw_data_jul14)
+> library(readr)
+> uber_raw_data_jun14 <- read_csv("Uber-dataset/uber-raw-data-jun14.csv")
+Rows: 663844 Columns: 4                                                                                                
+-- Column specification ------------------------------------------------------------
+Delimiter: ","
+chr (2): Date/Time, Base
+dbl (2): Lat, Lon
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> View(uber_raw_data_jun14)
+> library(readr)
+> uber_raw_data_may14 <- read_csv("Uber-dataset/uber-raw-data-may14.csv")
+Rows: 652435 Columns: 4                                                                                                
+-- Column specification ------------------------------------------------------------
+Delimiter: ","
+chr (2): Date/Time, Base
+dbl (2): Lat, Lon
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> View(uber_raw_data_may14)
+> library(readr)
+> uber_raw_data_sep14 <- read_csv("Uber-dataset/uber-raw-data-sep14.csv")
+Rows: 1028136 Columns: 4                                                                                               
+-- Column specification ------------------------------------------------------------
+Delimiter: ","
+chr (2): Date/Time, Base
+dbl (2): Lat, Lon
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> View(uber_raw_data_sep14)
+> data_2014 <- rbind(uber_raw_data_apr14, uber_raw_data_may14, uber_raw_data_jun14, uber_raw_data_jul14, uber_raw_data_aug14, uber_raw_data_sep14)
+> data_2014$Date.Time <- as.POSIXct(data_2014$Date.Time, format = "%m/%d/%Y %H:%M:%S")
+Error: Assigned data `as.POSIXct(data_2014$Date.Time, format = "%m/%d/%Y %H:%M:%S")` must be compatible with existing data.
+x Existing data has 4534327 rows.
+x Assigned data has 0 rows.
+i Only vectors of size 1 are recycled.
+Run `rlang::last_error()` to see where the error occurred.
+In addition: Warning message:
+Unknown or uninitialised column: `Date.Time`. 
+> rlang:: last_error()
+<error/tibble_error_assign_incompatible_size>
+Assigned data `as.POSIXct(data_2014$Date.Time, format = "%m/%d/%Y %H:%M:%S")` must be compatible with existing data.
+x Existing data has 4534327 rows.
+x Assigned data has 0 rows.
+i Only vectors of size 1 are recycled.
+Backtrace:
+Run `rlang::last_trace()` to see the full context.
+> rlang::last_error()
+<error/tibble_error_assign_incompatible_size>
+Assigned data `as.POSIXct(data_2014$Date.Time, format = "%m/%d/%Y %H:%M:%S")` must be compatible with existing data.
+x Existing data has 4534327 rows.
+x Assigned data has 0 rows.
+i Only vectors of size 1 are recycled.
+Backtrace:
+Run `rlang::last_trace()` to see the full context.
+> data_2014$Time <- format(as.POSIXct(data_2014$Date.Time, format = "%m/%d/%Y %H:%M:%S"), format="%H:%M:%S")
+Error: Assigned data `format(...)` must be compatible with existing data.
+x Existing data has 4534327 rows.
+x Assigned data has 0 rows.
+i Only vectors of size 1 are recycled.
+Run `rlang::last_error()` to see where the error occurred.
+In addition: Warning message:
+Unknown or uninitialised column: `Date.Time`. 
+> data_2014 <- as.data.frame(data_2014)
+> data_2014$Date.Time <- as.POSIXct(data_2014$Date.Time, format = "%m/%d/%Y %H:%M:%S")
+Error in `$<-.data.frame`(`*tmp*`, Date.Time, value = numeric(0)) : 
+  replacement has 0 rows, data has 4534327
+> data_2014
+            Date/Time     Lat      Lon   Base
+1    4/1/2014 0:11:00 40.7690 -73.9549 B02512
+2    4/1/2014 0:17:00 40.7267 -74.0345 B02512
+3    4/1/2014 0:21:00 40.7316 -73.9873 B02512
+4    4/1/2014 0:28:00 40.7588 -73.9776 B02512
+5    4/1/2014 0:33:00 40.7594 -73.9722 B02512
+6    4/1/2014 0:33:00 40.7383 -74.0403 B02512
+7    4/1/2014 0:39:00 40.7223 -73.9887 B02512
+8    4/1/2014 0:45:00 40.7620 -73.9790 B02512
+9    4/1/2014 0:55:00 40.7524 -73.9960 B02512
+10   4/1/2014 1:01:00 40.7575 -73.9846 B02512
+11   4/1/2014 1:19:00 40.7256 -73.9869 B02512
+12   4/1/2014 1:48:00 40.7591 -73.9684 B02512
+13   4/1/2014 1:49:00 40.7271 -73.9803 B02512
+14   4/1/2014 2:11:00 40.6463 -73.7896 B02512
+15   4/1/2014 2:25:00 40.7564 -73.9167 B02512
+16   4/1/2014 2:31:00 40.7666 -73.9531 B02512
+17   4/1/2014 2:43:00 40.7580 -73.9761 B02512
+18   4/1/2014 3:22:00 40.7238 -73.9821 B02512
+19   4/1/2014 3:35:00 40.7531 -74.0039 B02512
+20   4/1/2014 3:35:00 40.7389 -74.0393 B02512
+21   4/1/2014 3:41:00 40.7619 -73.9715 B02512
+22   4/1/2014 4:11:00 40.7530 -74.0042 B02512
+23   4/1/2014 4:15:00 40.6561 -73.9531 B02512
+24   4/1/2014 4:19:00 40.7250 -73.9844 B02512
+25   4/1/2014 4:20:00 40.6950 -74.1783 B02512
+26   4/1/2014 4:26:00 40.9859 -74.1578 B02512
+27   4/1/2014 4:27:00 40.6879 -74.1814 B02512
+28   4/1/2014 4:38:00 40.6878 -74.1816 B02512
+29   4/1/2014 4:47:00 40.7234 -73.9974 B02512
+30   4/1/2014 4:49:00 40.7336 -73.9900 B02512
+31   4/1/2014 5:08:00 40.7141 -74.0094 B02512
+32   4/1/2014 5:12:00 40.7893 -73.9709 B02512
+33   4/1/2014 5:18:00 40.7747 -73.9910 B02512
+34   4/1/2014 5:19:00 40.7689 -73.9876 B02512
+35   4/1/2014 5:23:00 40.7744 -74.0149 B02512
+36   4/1/2014 5:24:00 40.7393 -73.9974 B02512
+37   4/1/2014 5:24:00 40.7776 -73.9752 B02512
+38   4/1/2014 5:27:00 40.6483 -73.7829 B02512
+39   4/1/2014 5:34:00 40.6907 -74.1782 B02512
+40   4/1/2014 5:36:00 40.7217 -73.9875 B02512
+41   4/1/2014 5:36:00 40.7651 -73.9632 B02512
+42   4/1/2014 5:40:00 40.7437 -73.9985 B02512
+43   4/1/2014 5:43:00 40.7605 -73.9780 B02512
+44   4/1/2014 5:44:00 40.7430 -74.0301 B02512
+45   4/1/2014 5:44:00 40.7430 -74.0301 B02512
+46   4/1/2014 5:49:00 40.7423 -74.0371 B02512
+47   4/1/2014 5:49:00 40.7236 -74.0037 B02512
+48   4/1/2014 5:52:00 40.7723 -73.9527 B02512
+49   4/1/2014 5:52:00 40.7574 -73.9862 B02512
+50   4/1/2014 5:53:00 40.7838 -73.9504 B02512
+51   4/1/2014 5:54:00 40.7711 -73.9871 B02512
+52   4/1/2014 5:56:00 40.7571 -73.9726 B02512
+53   4/1/2014 5:56:00 40.7442 -73.9854 B02512
+54   4/1/2014 5:58:00 40.7166 -74.0144 B02512
+55   4/1/2014 6:00:00 40.7507 -73.9703 B02512
+56   4/1/2014 6:01:00 40.7337 -73.9979 B02512
+57   4/1/2014 6:02:00 40.7236 -74.0111 B02512
+58   4/1/2014 6:03:00 40.7151 -74.0464 B02512
+59   4/1/2014 6:06:00 40.7701 -73.9588 B02512
+60   4/1/2014 6:08:00 40.8600 -73.9142 B02512
+61   4/1/2014 6:08:00 40.7555 -73.9729 B02512
+62   4/1/2014 6:14:00 40.7249 -74.0355 B02512
+63   4/1/2014 6:14:00 40.6193 -74.1570 B02512
+64   4/1/2014 6:15:00 40.7753 -73.9780 B02512
+65   4/1/2014 6:15:00 40.7204 -73.9545 B02512
+66   4/1/2014 6:16:00 40.7772 -73.9595 B02512
+67   4/1/2014 6:17:00 40.7651 -74.0820 B02512
+68   4/1/2014 6:17:00 40.7400 -73.9879 B02512
+69   4/1/2014 6:19:00 40.7741 -73.9568 B02512
+70   4/1/2014 6:20:00 40.7599 -73.9944 B02512
+71   4/1/2014 6:21:00 40.7531 -74.0039 B02512
+72   4/1/2014 6:22:00 40.7791 -73.9623 B02512
+73   4/1/2014 6:25:00 40.7382 -74.0033 B02512
+74   4/1/2014 6:31:00 40.7391 -73.9989 B02512
+75   4/1/2014 6:31:00 40.7806 -73.9820 B02512
+76   4/1/2014 6:32:00 40.7322 -73.9863 B02512
+77   4/1/2014 6:33:00 40.7703 -73.9660 B02512
+78   4/1/2014 6:34:00 40.7221 -74.0018 B02512
+79   4/1/2014 6:35:00 40.7588 -73.9895 B02512
+80   4/1/2014 6:36:00 40.7677 -73.9656 B02512
+81   4/1/2014 6:37:00 40.7404 -74.0076 B02512
+82   4/1/2014 6:38:00 40.7679 -73.9599 B02512
+83   4/1/2014 6:39:00 40.7694 -73.9852 B02512
+84   4/1/2014 6:40:00 40.7858 -73.9546 B02512
+85   4/1/2014 6:40:00 40.7742 -73.9491 B02512
+86   4/1/2014 6:42:00 40.7703 -73.9500 B02512
+87   4/1/2014 6:42:00 40.7614 -73.9997 B02512
+88   4/1/2014 6:43:00 40.7930 -73.9749 B02512
+89   4/1/2014 6:44:00 40.7231 -73.9442 B02512
+90   4/1/2014 6:45:00 40.7874 -73.9545 B02512
+91   4/1/2014 6:47:00 40.7689 -73.9812 B02512
+92   4/1/2014 6:47:00 40.7789 -73.9557 B02512
+93   4/1/2014 6:48:00 40.7271 -74.0054 B02512
+94   4/1/2014 6:52:00 40.7877 -73.9730 B02512
+95   4/1/2014 6:52:00 40.7255 -74.0092 B02512
+96   4/1/2014 6:54:00 40.7653 -73.9723 B02512
+97   4/1/2014 6:56:00 40.7644 -73.9769 B02512
+98   4/1/2014 6:57:00 40.7726 -73.9532 B02512
+99   4/1/2014 6:59:00 40.7898 -73.9661 B02512
+100  4/1/2014 7:00:00 40.7839 -73.9703 B02512
+101  4/1/2014 7:00:00 40.7236 -74.0016 B02512
+102  4/1/2014 7:00:00 40.6990 -73.9951 B02512
+103  4/1/2014 7:00:00 40.7581 -73.9219 B02512
+104  4/1/2014 7:01:00 40.7680 -73.9191 B02512
+105  4/1/2014 7:02:00 40.7677 -73.9897 B02512
+106  4/1/2014 7:02:00 40.7710 -73.8660 B02512
+107  4/1/2014 7:03:00 40.7808 -73.9487 B02512
+108  4/1/2014 7:06:00 40.7147 -74.0362 B02512
+109  4/1/2014 7:07:00 40.7732 -73.9504 B02512
+110  4/1/2014 7:08:00 40.7335 -74.0043 B02512
+111  4/1/2014 7:08:00 40.7754 -73.9782 B02512
+112  4/1/2014 7:09:00 40.7752 -73.9455 B02512
+113  4/1/2014 7:09:00 40.7243 -74.0021 B02512
+114  4/1/2014 7:09:00 40.7786 -73.9512 B02512
+115  4/1/2014 7:11:00 40.7877 -73.9788 B02512
+116  4/1/2014 7:12:00 40.8674 -73.8822 B02512
+117  4/1/2014 7:14:00 40.7678 -73.9704 B02512
+118  4/1/2014 7:15:00 40.7749 -73.9587 B02512
+119  4/1/2014 7:15:00 40.7209 -73.9813 B02512
+120  4/1/2014 7:17:00 40.7560 -73.9752 B02512
+121  4/1/2014 7:17:00 40.7923 -73.9676 B02512
+122  4/1/2014 7:20:00 40.7390 -73.9991 B02512
+123  4/1/2014 7:21:00 40.7273 -73.9797 B02512
+124  4/1/2014 7:22:00 40.7751 -73.9475 B02512
+125  4/1/2014 7:22:00 40.7406 -73.9983 B02512
+126  4/1/2014 7:23:00 40.8364 -74.1461 B02512
+127  4/1/2014 7:24:00 40.7452 -73.9910 B02512
+128  4/1/2014 7:25:00 40.7805 -73.9481 B02512
+129  4/1/2014 7:25:00 40.7805 -73.9481 B02512
+130  4/1/2014 7:26:00 40.7814 -73.9513 B02512
+131  4/1/2014 7:26:00 40.7864 -73.9699 B02512
+132  4/1/2014 7:27:00 40.7830 -73.9559 B02512
+133  4/1/2014 7:28:00 40.7582 -73.9928 B02512
+134  4/1/2014 7:29:00 40.7216 -74.0046 B02512
+135  4/1/2014 7:29:00 40.7298 -73.9988 B02512
+136  4/1/2014 7:29:00 40.7746 -73.9560 B02512
+137  4/1/2014 7:30:00 40.7208 -73.9940 B02512
+138  4/1/2014 7:32:00 40.7669 -73.9617 B02512
+139  4/1/2014 7:32:00 40.7084 -74.0064 B02512
+140  4/1/2014 7:35:00 40.7425 -73.9942 B02512
+141  4/1/2014 7:35:00 40.7424 -73.9838 B02512
+142  4/1/2014 7:35:00 40.7724 -73.9550 B02512
+143  4/1/2014 7:37:00 40.7787 -73.9559 B02512
+144  4/1/2014 7:38:00 40.7752 -73.9637 B02512
+145  4/1/2014 7:38:00 40.7754 -73.9500 B02512
+146  4/1/2014 7:38:00 40.7368 -74.0044 B02512
+147  4/1/2014 7:40:00 40.7174 -73.9924 B02512
+148  4/1/2014 7:42:00 40.7305 -73.9934 B02512
+149  4/1/2014 7:45:00 40.7747 -73.9613 B02512
+150  4/1/2014 7:45:00 40.7229 -73.9940 B02512
+151  4/1/2014 7:46:00 40.7396 -73.9810 B02512
+152  4/1/2014 7:46:00 40.7250 -73.9994 B02512
+153  4/1/2014 7:50:00 40.6950 -74.1774 B02512
+154  4/1/2014 7:51:00 40.7190 -74.0064 B02512
+155  4/1/2014 7:51:00 40.8271 -73.9726 B02512
+156  4/1/2014 7:53:00 40.7793 -73.9495 B02512
+157  4/1/2014 7:54:00 40.7266 -73.9801 B02512
+158  4/1/2014 7:55:00 40.6922 -74.1811 B02512
+159  4/1/2014 7:56:00 40.7418 -74.0074 B02512
+160  4/1/2014 7:56:00 40.7108 -73.9845 B02512
+161  4/1/2014 7:57:00 40.7857 -73.9802 B02512
+162  4/1/2014 7:59:00 40.7757 -73.9502 B02512
+163  4/1/2014 8:01:00 40.7514 -73.9699 B02512
+164  4/1/2014 8:02:00 40.7343 -73.9936 B02512
+165  4/1/2014 8:05:00 40.7340 -74.0094 B02512
+166  4/1/2014 8:05:00 40.7180 -74.0099 B02512
+167  4/1/2014 8:07:00 40.7287 -73.9805 B02512
+168  4/1/2014 8:08:00 40.7580 -73.9707 B02512
+169  4/1/2014 8:08:00 40.6920 -74.1813 B02512
+170  4/1/2014 8:08:00 40.7780 -73.9487 B02512
+171  4/1/2014 8:08:00 40.7658 -73.9692 B02512
+172  4/1/2014 8:08:00 40.7222 -74.0104 B02512
+173  4/1/2014 8:10:00 40.7329 -73.9881 B02512
+174  4/1/2014 8:11:00 40.7659 -73.9766 B02512
+175  4/1/2014 8:16:00 40.7789 -73.9618 B02512
+176  4/1/2014 8:18:00 40.7890 -73.9743 B02512
+177  4/1/2014 8:19:00 40.7617 -73.9843 B02512
+178  4/1/2014 8:19:00 40.7214 -73.9475 B02512
+179  4/1/2014 8:20:00 40.7595 -73.9913 B02512
+180  4/1/2014 8:21:00 40.7931 -73.9748 B02512
+181  4/1/2014 8:21:00 40.7371 -74.0004 B02512
+182  4/1/2014 8:22:00 40.7345 -73.9960 B02512
+183  4/1/2014 8:24:00 40.7747 -73.9912 B02512
+184  4/1/2014 8:24:00 40.8822 -73.9211 B02512
+185  4/1/2014 8:25:00 40.7620 -73.9787 B02512
+186  4/1/2014 8:25:00 40.7620 -73.9787 B02512
+187  4/1/2014 8:27:00 40.7326 -74.0038 B02512
+188  4/1/2014 8:28:00 40.7555 -73.9737 B02512
+189  4/1/2014 8:28:00 40.7596 -73.9854 B02512
+190  4/1/2014 8:29:00 40.6904 -74.1778 B02512
+191  4/1/2014 8:29:00 40.6904 -74.1778 B02512
+192  4/1/2014 8:30:00 40.7408 -73.9914 B02512
+193  4/1/2014 8:32:00 40.6819 -73.9358 B02512
+194  4/1/2014 8:32:00 40.7624 -73.9714 B02512
+195  4/1/2014 8:36:00 40.7805 -73.9548 B02512
+196  4/1/2014 8:39:00 40.7889 -73.9542 B02512
+197  4/1/2014 8:42:00 40.7835 -73.9513 B02512
+198  4/1/2014 8:43:00 40.7651 -73.9617 B02512
+199  4/1/2014 8:43:00 40.7261 -73.9918 B02512
+200  4/1/2014 8:44:00 40.7303 -73.9937 B02512
+201  4/1/2014 8:44:00 40.8736 -74.0628 B02512
+202  4/1/2014 8:45:00 40.7240 -73.9981 B02512
+203  4/1/2014 8:46:00 40.7744 -73.9578 B02512
+204  4/1/2014 8:49:00 40.7607 -73.9861 B02512
+205  4/1/2014 8:49:00 40.7749 -73.9841 B02512
+206  4/1/2014 8:51:00 40.7625 -73.9724 B02512
+207  4/1/2014 8:52:00 40.7377 -73.9965 B02512
+208  4/1/2014 8:54:00 40.7388 -74.0087 B02512
+209  4/1/2014 8:56:00 40.7677 -73.9810 B02512
+210  4/1/2014 8:58:00 40.7691 -73.9652 B02512
+211  4/1/2014 8:58:00 40.7816 -73.9602 B02512
+212  4/1/2014 8:58:00 40.7739 -73.8717 B02512
+213  4/1/2014 9:00:00 40.7841 -73.9542 B02512
+214  4/1/2014 9:02:00 40.7426 -73.9963 B02512
+215  4/1/2014 9:05:00 40.7710 -73.8669 B02512
+216  4/1/2014 9:06:00 40.7750 -73.9888 B02512
+217  4/1/2014 9:07:00 40.7356 -74.0029 B02512
+218  4/1/2014 9:08:00 40.7666 -73.9784 B02512
+219  4/1/2014 9:10:00 40.7118 -73.9499 B02512
+220  4/1/2014 9:12:00 40.7097 -74.0153 B02512
+221  4/1/2014 9:15:00 40.7438 -74.0061 B02512
+222  4/1/2014 9:16:00 40.7600 -73.9861 B02512
+223  4/1/2014 9:16:00 40.7752 -73.9635 B02512
+224  4/1/2014 9:23:00 40.7788 -73.9560 B02512
+225  4/1/2014 9:24:00 40.8078 -73.9639 B02512
+226  4/1/2014 9:24:00 40.7631 -73.9784 B02512
+227  4/1/2014 9:25:00 40.7788 -73.9510 B02512
+228  4/1/2014 9:25:00 40.7714 -73.9594 B02512
+229  4/1/2014 9:28:00 40.7694 -73.9830 B02512
+230  4/1/2014 9:30:00 40.7330 -73.9901 B02512
+231  4/1/2014 9:32:00 40.7412 -73.9878 B02512
+232  4/1/2014 9:35:00 40.7526 -73.9750 B02512
+233  4/1/2014 9:38:00 40.7602 -73.9598 B02512
+234  4/1/2014 9:42:00 40.7730 -73.9669 B02512
+235  4/1/2014 9:46:00 40.7628 -73.9948 B02512
+236  4/1/2014 9:46:00 40.7752 -73.9636 B02512
+237  4/1/2014 9:48:00 40.7283 -74.0071 B02512
+238  4/1/2014 9:49:00 40.7195 -74.0367 B02512
+239  4/1/2014 9:49:00 40.7195 -74.0367 B02512
+240  4/1/2014 9:52:00 40.7747 -73.9911 B02512
+241  4/1/2014 9:52:00 40.7401 -73.9920 B02512
+242  4/1/2014 9:54:00 40.7686 -73.9698 B02512
+243  4/1/2014 9:54:00 40.7336 -73.9982 B02512
+244  4/1/2014 9:55:00 40.7795 -73.9837 B02512
+245  4/1/2014 9:58:00 40.7148 -74.0162 B02512
+246  4/1/2014 9:58:00 40.7438 -73.9759 B02512
+247  4/1/2014 9:58:00 40.7450 -73.9888 B02512
+248 4/1/2014 10:01:00 40.7768 -73.9773 B02512
+249 4/1/2014 10:01:00 40.7594 -73.9660 B02512
+250 4/1/2014 10:04:00 40.7741 -73.8726 B02512
+ [ reached 'max' / getOption("max.print") -- omitted 4534077 rows ]
+> data_2014$Date/Time <- as.POSIXct(data_2014$Date/Time, format = "%m/%d/%Y %H:%M:%S")
+Error in as.POSIXct(data_2014$Date/Time, format = "%m/%d/%Y %H:%M:%S") : 
+  object 'Time' not found
+> data_2014$`Date/Time` <- as.POSIXct(data_2014$`Date/Time`, format = "%m/%d/%Y %H:%M:%S")
+> data_2014$Time <- format(as.POSIXct(data_2014$`Date/Time`, format = "%m/%d/%Y %H:%M:%S"), format="%H:%M:%S")
+> data_2014$`Date/Time` <- ymd_hms(data_2014$`Date/Time`)
+Error in ymd_hms(data_2014$`Date/Time`) : 
+  could not find function "ymd_hms"
+> data_2014$`Date/Time` <- ymd_hms(data_2014$`Date/Time`)
+Error in ymd_hms(data_2014$`Date/Time`) : 
+  could not find function "ymd_hms"
+> remove.packages('lubridate')
+Removing package from ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+> install.packages('Rcpp', dependencies = TRUE)
+Error in install.packages : Updating loaded packages
+
+Restarting R session...
+
+> install.packages('Rcpp', dependencies = TRUE)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘tinytest’, ‘inline’, ‘rbenchmark’, ‘pkgKitten’
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/tinytest_1.3.1.zip'
+Content type 'application/zip' length 547247 bytes (534 KB)
+downloaded 534 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/inline_0.3.19.zip'
+Content type 'application/zip' length 130535 bytes (127 KB)
+downloaded 127 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/rbenchmark_1.0.0.zip'
+Content type 'application/zip' length 22387 bytes (21 KB)
+downloaded 21 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/pkgKitten_0.2.2.zip'
+Content type 'application/zip' length 27631 bytes (26 KB)
+downloaded 26 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/Rcpp_1.0.7.zip'
+Content type 'application/zip' length 3263462 bytes (3.1 MB)
+downloaded 3.1 MB
+
+package ‘tinytest’ successfully unpacked and MD5 sums checked
+package ‘inline’ successfully unpacked and MD5 sums checked
+package ‘rbenchmark’ successfully unpacked and MD5 sums checked
+package ‘pkgKitten’ successfully unpacked and MD5 sums checked
+package ‘Rcpp’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\Rtmpi2ZN2Q\downloaded_packages
+> install.packages('lubridate', dependencies = TRUE)
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘rex’, ‘covr’
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/rex_1.2.1.zip'
+Content type 'application/zip' length 126835 bytes (123 KB)
+downloaded 123 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/covr_3.5.1.zip'
+Content type 'application/zip' length 305884 bytes (298 KB)
+downloaded 298 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/lubridate_1.8.0.zip'
+Content type 'application/zip' length 1719496 bytes (1.6 MB)
+downloaded 1.6 MB
+
+package ‘rex’ successfully unpacked and MD5 sums checked
+package ‘covr’ successfully unpacked and MD5 sums checked
+package ‘lubridate’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\Rtmpi2ZN2Q\downloaded_packages
+> data_2014$`Date/Time` <- ymd_hms(data_2014$`Date/Time`)
+Error in ymd_hms(data_2014$`Date/Time`) : 
+  could not find function "ymd_hms"
+> library(Rccp)
+Error in library(Rccp) : there is no package called ‘Rccp’
+> library(lubridate)
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning message:
+package ‘lubridate’ was built under R version 4.1.2 
+> data_2014$`Date/Time` <- ymd_hms(data_2014$`Date/Time`)
+> data_2014$day <- factor(day(data_2014$`Date/Time`))
+> data_2014$month <- factor(month(data_2014$`Date/Time`, label = TRUE))
+> data_2014$year <- factor(year(data_2014$`Date/Time`))
+> data_2014$dayofweek <- factor(wday(data_2014$`Date/Time`, label = TRUE))
+> data_2014$hour <- factor(hour(hms(data_2014$Time)))
+> data_2014$minute <- factor(minute(hms(data_2014$Time)))
+> data_2014$second <- factor(second(hms(data_2014$Time)))
+> hour_data <- data_2014 %>%
++     group_by(hour) %>%
++     dplyr::summarize(Total = n())
+Error in data_2014 %>% group_by(hour) %>% dplyr::summarize(Total = n()) : 
+  could not find function "%>%"
+> hour_data <- data_2014 %>% group_by(hour)%>%dplyr::summarize(Total = n())
+Error in data_2014 %>% group_by(hour) %>% dplyr::summarize(Total = n()) : 
+  could not find function "%>%"
+> hour_data <- data_2014 %>%
++ 
+> library(dplyr)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.1.2 
+> hour_data <- data_2014 %>%
++     group_by(hour) %>%
++     dplyr::summarize(Total = n())
+> datatable(hour_data)
+Error in datatable(hour_data) : could not find function "datatable"
+> install.packages("data.table")
+WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ‘C:/Users/Ahmad Raza/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/data.table_1.14.2.zip'
+Content type 'application/zip' length 2600846 bytes (2.5 MB)
+downloaded 2.5 MB
+
+package ‘data.table’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\Ahmad Raza\AppData\Local\Temp\Rtmpi2ZN2Q\downloaded_packages
+> library(data.table)
+data.table 1.14.2 using 2 threads (see ?getDTthreads).  Latest news: r-datatable.com
+
+Attaching package: ‘data.table’
+
+The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+The following objects are masked from ‘package:lubridate’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week, yday,
+    year
+
+Warning message:
+package ‘data.table’ was built under R version 4.1.2 
+> datatable(hour_data)
+Error in datatable(hour_data) : could not find function "datatable"
+> library(ggplot2)
+> datatable(hour_data)
+Error in datatable(hour_data) : could not find function "datatable"
+> library(DT)
+Warning message:
+package ‘DT’ was built under R version 4.1.2 
+> datatable(hour_data)
+> library(ggplot2)
+> ggplot(hour_data, aes(hour, Total)) + 
++     geom_bar( stat = "identity", fill = "steelblue", color = "red") +
++     ggtitle("Trips Every Hour") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma)
+Error in check_breaks_labels(breaks, labels) : object 'comma' not found
+> library(scales)
+Warning message:
+package ‘scales’ was built under R version 4.1.2 
+> ggplot(hour_data, aes(hour, Total)) + 
++     geom_bar( stat = "identity", fill = "steelblue", color = "red") +
++     ggtitle("Trips Every Hour") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma)
+> month_hour <- data_2014 %>%
++     group_by(month, hour) %>%
++     dplyr::summarize(Total = n())
+`summarise()` has grouped output by 'month'. You can override using the `.groups` argument.
+> 
+> ggplot(month_hour, aes(hour, Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Hour and Month") +
++     scale_y_continuous(labels = comma)
+> day_group <- data_2014 %>%
++     group_by(day) %>%
++     dplyr::summarize(Total = n()) 
+> datatable(day_group)
+> ggplot(day_group, aes(day, Total)) + 
++     geom_bar( stat = "identity", fill = "steelblue") +
++     ggtitle("Trips Every Day") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma)
+> day_month_group <- data_2014 %>%
++     group_by(month, day) %>%
++     dplyr::summarize(Total = n())
+`summarise()` has grouped output by 'month'. You can override using the `.groups` argument.
+> ggplot(day_month_group, aes(day, Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Day and Month") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+Error: Insufficient values in manual scale. 6 needed but only 1 provided.
+Run `rlang::last_error()` to see where the error occurred.
+> library(scales)
+> ggplot(day_month_group, aes(day, Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Day and Month") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+Error: Insufficient values in manual scale. 6 needed but only 1 provided.
+Run `rlang::last_error()` to see where the error occurred.
+> colors -> c("#CC1011", "#665555", "#05a399", "#cfcaca", "#f5e840", "#0683c9", "#e075b0")
+Error in c("#CC1011", "#665555", "#05a399", "#cfcaca", "#f5e840", "#0683c9",  : 
+  target of assignment expands to non-language object
+> colors = c("#CC1011", "#665555", "#05a399", "#cfcaca", "#f5e840", "#0683c9", "#e075b0")
+> ggplot(day_month_group, aes(day, Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Day and Month") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+> month_group <- data_2014 %>%
++     group_by(month) %>%
++     dplyr::summarize(Total = n()) 
+> datatable(month_group)
+> ggplot( , aes(month, Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Month") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+Error in FUN(X[[i]], ...) : object 'Total' not found
+> library(ggplot2)
+> ggplot( , aes(month, Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Month") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+Error in FUN(X[[i]], ...) : object 'Total' not found
+> Total
+Error: object 'Total' not found
+> month_group <- data_2014 %>%
++     group_by(month) %>%
++     dplyr::summarize(Total = n()) 
+> datatable(month_group)
+> Total
+Error: object 'Total' not found
+> month_group$Total
+[1]  564516  652435  663844  796121  829275 1028136
+> count(month_group$Total)
+Error in UseMethod("count") : 
+  no applicable method for 'count' applied to an object of class "c('integer', 'numeric')"
+> ggplot( , aes(month, month_group$Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Month") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+Error: Aesthetics must be valid data columns. Problematic aesthetic(s): x = month, fill = month. 
+Did you mistype the name of a data column or forget to add after_stat()?
+Run `rlang::last_error()` to see where the error occurred.
+> ggplot( , aes(month, 6, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Month") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+Error: Aesthetics must be valid data columns. Problematic aesthetic(s): x = month, fill = month. 
+Did you mistype the name of a data column or forget to add after_stat()?
+Run `rlang::last_error()` to see where the error occurred.
+> library(scales)
+> ggplot( , aes(month, Total, fill = month)) + 
++     geom_bar( stat = "identity") +
++     ggtitle("Trips by Month") +
++     theme(legend.position = "none") +
++     scale_y_continuous(labels = comma) +
++     scale_fill_manual(values = colors)
+Don't know how to automatically pick scale for object of type function. Defaulting to continuous.
+Error in FUN(X[[i]], ...) : object 'Total' not found
+> 
